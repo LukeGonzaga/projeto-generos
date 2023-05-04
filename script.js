@@ -4,7 +4,7 @@ function verificar(){
    var fano = document.getElementById('txtano')
    var res = document.getElementById('res')
     if(fano.value.lenght == 0 || fano.value > ano){
-        alert('Erro, Idade inválida' )
+        alert('Erro! Ano inválida')
     }else{
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
